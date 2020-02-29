@@ -9,9 +9,7 @@ import footerStyles from '../sass/components/footer.module.scss'
 const Footer = ({ author }) => {
   return (
     <footer className={footerStyles.footer}>
-        <p>Say hi</p>
-        <FooterPanel/>
-        <p>martinmalmstrom@outlook.com</p>
+        <section><FooterPanel/></section>
     </footer>
   );
 };

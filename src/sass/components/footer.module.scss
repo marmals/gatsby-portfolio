@@ -1,7 +1,4 @@
-$backgroundColor: #fdf6f6;
-$foregroundColor: #a5e9e1;
-$textColor: #2e2b2b;
-$effectColor: #388186;
+@import '../globals';
 
 
 .footer {
@@ -15,11 +12,4 @@ $effectColor: #388186;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.footer p {
-  margin: 0;
-  padding: 0;
-  color: $textColor;
-  font-weight: bold;
 }

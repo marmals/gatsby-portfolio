@@ -9,10 +9,7 @@ const Header = ({ siteTitle }) => (
     <header className={headerStyles.header}>
       <div className={headerStyles.title}>
         <h3>
-          <Link to="/">
-            <span>m</span><span>artin</span>
-            <span>m</span><span>almström</span>
-          </Link>
+          <Link to="/">mm</Link>
         </h3>
       </div>
       <ul>
@@ -24,6 +21,9 @@ const Header = ({ siteTitle }) => (
         </li>
         <li>
           <Link to="/resume">resume</Link>
+        </li>
+        <li>
+          <Link to="/contact">contact</Link>
         </li>
       </ul>
     </header>

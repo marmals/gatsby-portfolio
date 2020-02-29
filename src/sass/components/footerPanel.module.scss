@@ -1,0 +1,63 @@
+@import '../globals';
+
+$twitterColor: #55acee;
+$linkedInColor: #0077B5;
+$gitHubColor: #24292e;
+
+.panel{
+    ul{
+        display: flex;
+        li{
+            list-style-type: none;
+            &:nth-child(1) a:before{
+                background: $twitterColor;
+            }
+            &:nth-child(2) a:before{
+                background: $linkedInColor;
+            }
+            &:nth-child(3) a:before{
+                background: $gitHubColor;
+            }
+            a{
+                width: 50px;
+                height: 50px;
+                background: $textColor;
+                color: $backgroundColor;
+                text-align: center;
+                line-height: 50px;
+                font-size: 25px;
+                margin: 0 5px;
+                display: block;
+                border-radius: 50%;
+                position: relative;
+                overflow: hidden;
+                border: 3px solid $textColor;
+                z-index: 1;
+                i{
+                    position: relative;
+                    color: $backgroundColor;
+                    transition: .5s;
+                    z-index: 3;
+                }
+                &:hover i{
+                    color: $textColor; //fix
+                    transform: rotateY(360deg);
+                }
+                &:before{
+                    content: '';
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: $foregroundColor;
+                    transition: .5s;
+                    z-index: 2;
+                }
+                &:hover:before{
+                    top: 0;
+                }
+            }
+        }
+    }
+}
