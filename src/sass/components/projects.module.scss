@@ -1,0 +1,29 @@
+.container{
+    margin-top: 10vh;
+}
+.projects {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  .project {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 40rem) {
+    .projectItem {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .projectItem {
+      width: 40%;
+    }
+  }

@@ -17,21 +17,3 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
-
-h1, h2, h3, h4, h5, h6{
-    color: $textColor;
-    text-align: center;
-    text-transform: uppercase;
-}
-p{
-    color: $textColor;
-    font-size: x-large;
-}
-
-a{
-    color: $effectColor;
-    text-decoration: none;
-    &:hover {
-        color: $effectColor;
-    }
-}

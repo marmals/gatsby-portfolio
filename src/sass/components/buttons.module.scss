@@ -1,0 +1,19 @@
+@import '../globals';
+.standardButton {
+	box-shadow: 0px 14px 15px -11px $backgroundColor;
+	background-color: $backgroundColor;
+    border-radius:10px;
+    border:2px solid $effectColor;
+	display:inline-block;
+	cursor:pointer;
+	color: $textColor;
+	font-size: 0.8rem;
+    font-weight:bold;
+    text-transform: uppercase;
+	padding:10px 20px;
+    text-decoration:none;
+    &:hover{
+        color: $textColor;
+        background-color: $foregroundColor;
+    }
+}

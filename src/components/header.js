@@ -5,7 +5,7 @@ import React from "react"
 import headerStyles from "../sass/components/header.module.scss"
 
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
     <header className={headerStyles.header}>
       <div className={headerStyles.title}>
         <h3>

@@ -1,6 +1,5 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Footer from "./footer"
@@ -12,16 +11,16 @@ const HomePageLayout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header/>
       <div className={layoutStyles.container}>
         <main>{children}</main>
       </div>
-      <Footer author={data.site.siteMetadata.author}/>
+      <Footer/>
     </>
   )
 }
 
-Layout.propTypes = {
+HomePageLayout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 

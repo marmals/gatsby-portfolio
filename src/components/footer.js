@@ -6,7 +6,7 @@ import FooterPanel from "./footerPanel"
 
 import footerStyles from '../sass/components/footer.module.scss'
 
-const Footer = ({ author }) => {
+const Footer = () => {
   return (
     <footer className={footerStyles.footer}>
         <section><FooterPanel/></section>
