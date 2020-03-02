@@ -22,9 +22,6 @@ const Header = ({ siteTitle }) => (
         <li>
           <Link to="/resume">resume</Link>
         </li>
-        <li>
-          <Link to="/contact">contact</Link>
-        </li>
       </ul>
     </header>
   )
