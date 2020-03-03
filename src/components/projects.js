@@ -79,7 +79,7 @@ const Projects = () => {
   )
 
   return (
-    <div className={projectsStyles.container}>
+    <div>
       <h1>Projects</h1>
       <ul className={projectsStyles.projects}>
         {allProjects}

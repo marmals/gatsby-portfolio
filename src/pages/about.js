@@ -11,7 +11,7 @@ const AboutPage = () => (
     <h1>About</h1>
     <p>Hi, My name is Martin Malmström.</p>
     <p>
-      I'm a fullstack developer from sweden and got a bachelor's degree in software engineering and mobile platforms at Jönköping university.
+      I'm a fullstack developer from Sweden and got a bachelor's degree in software engineering and mobile platforms at Jönköping university.
       For my internship i created a web application to generate dynamic QR-codes for a company and i discovered that my true intrest lie in web development.
     </p>
     <p>
