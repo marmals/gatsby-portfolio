@@ -67,5 +67,9 @@
     }
 }
 
-
+@media (min-width: 40rem) {
+    .container .card .face.face1{
+        transform: translateY(0);
+    }
+  }
 

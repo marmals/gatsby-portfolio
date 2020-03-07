@@ -12,14 +12,14 @@
     padding: 1rem;
   }
   
-  @media (min-width: 40rem) {
-    .projectItem {
+  @media (min-width: 400rem) {
+    .project {
       width: 50%;
     }
   }
   
-  @media (min-width: 56rem) {
-    .projectItem {
+  @media (min-width: 560rem) {
+    .project {
       width: 40%;
     }
   }

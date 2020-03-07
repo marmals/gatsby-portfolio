@@ -9,7 +9,12 @@
         text-transform: none;
         padding-top: 30vh;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        align-items: left;
+        padding-left: 40vh;
+    }
+    section{
+        display: flex;
+        justify-content: left;
+        padding-left: 20vh;
     }
 }
