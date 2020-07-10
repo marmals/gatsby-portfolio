@@ -7,7 +7,7 @@ import FooterPanel from "./footerPanel"
 const HomePageImage = () => {
   return (
     <div className={homePageImageStyles.component}>
-      <h1>I'm Martin</h1>
+      <h1>I'm Martin, fullstack developer from Sweden</h1>
       <section><FooterPanel/></section>
     </div>
     )

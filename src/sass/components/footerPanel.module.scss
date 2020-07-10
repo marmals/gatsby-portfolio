@@ -7,6 +7,8 @@ $gitHubColor: #24292e;
 .panel{
     ul{
         display: flex;
+        padding: 0;
+        margin: 0;
         li{
             list-style-type: none;
             &:nth-child(1) a:before{
@@ -24,7 +26,7 @@ $gitHubColor: #24292e;
                 background: $textColor;
                 color: $backgroundColor;
                 text-align: center;
-                line-height: 50px;
+                line-height: 43px;
                 font-size: 25px;
                 margin: 0 5px;
                 display: block;

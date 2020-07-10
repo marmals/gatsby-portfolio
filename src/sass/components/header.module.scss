@@ -61,5 +61,12 @@
     font-weight: 900;
 }
 
+@media (max-width: 45em) {
+    .header{
+        background-color: $backgroundColor;
+        z-index: 10;
+    }
+}
+
 
 

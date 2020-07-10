@@ -14,6 +14,7 @@ const Projects = () => {
       img: image,
       demo: "#",
       code: "#",
+      src: "https://github.com/marmals/",
       tech: [
         {name: "HTML & CSS"},
         {name: "Javascript"},
@@ -27,6 +28,7 @@ const Projects = () => {
       img: image,
       demo: "#",
       code: "#",
+      src: "google.se",
       tech: [
         {name: "HTML & CSS"},
         {name: "Javascript"},
@@ -40,6 +42,7 @@ const Projects = () => {
       img: image,
       demo: "#",
       code: "#",
+      src: "google.se",
       tech: [
         {name: "HTML & CSS"},
         {name: "Javascript"},
@@ -48,11 +51,12 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "test3",
+      title: "test4",
       info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       img: image,
       demo: "#",
       code: "#",
+      src: "google.se",
       tech: [
         {name: "HTML & CSS"},
         {name: "Javascript"},
@@ -61,11 +65,12 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "test3",
+      title: "test5",
       info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       img: image,
       demo: "#",
       code: "#",
+      src: "google.se",
       tech: [
         {name: "HTML & CSS"},
         {name: "Javascript"},

@@ -19,7 +19,7 @@ const AboutPage = () => (
       I will for ever be a student learning new technologies in the industry.
     </p>
     <p>
-      Don't hesitate to <a href="mailto:martinmalmstrom@outlook.com">contact</a> me if there is anything you're wondering about!
+      Feel free to <a href="mailto:martinmalmstrom@outlook.com">contact</a> me!
     </p>
   </Layout>
 )
